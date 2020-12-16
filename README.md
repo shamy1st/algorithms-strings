@@ -1,6 +1,6 @@
 # Strings
 
-### Count Vowels
+### 01 Count Vowels
 
 Find the number of vowels in a string. Vowels in English are A, E, O, U and I.
 
@@ -23,7 +23,7 @@ Output: 2
             return count;
         }
 
-### Reverse String
+### 02 Reverse String
 
 Input: “hello”
 
@@ -40,7 +40,7 @@ Output: “olleh”
             return reversed.toString();
         }
 
-### Reverse Words
+### 03 Reverse Words
 
 Reverse the order of words in a sentence.
 
@@ -75,7 +75,7 @@ Output: “beautiful are Trees”
 
         or using stack
 
-### Rotation
+### 04 Rotation
 
 Check if a string is a rotation of another string.
 
@@ -89,7 +89,7 @@ Output: true
             return (str1 + str1).contains(str2);
         }
 
-### Remove Duplicates
+### 05 Remove Duplicates
 
 Remove duplicate characters in a string.
 
@@ -113,7 +113,7 @@ Output: “Helo Wrd!”
             return noDuplicates.toString();
         }
 
-### Most Repeated Char
+### 06 Most Repeated Char
 
 Find the most repeated character in a string.
 
@@ -144,7 +144,7 @@ Output: ‘o’
             return maxChar;
         }
 
-### Sentence Capitalization
+### 07 Sentence Capitalization
 
 Capitalize the first letter of each word in a sentence. Also, remove any extra spaces between words.
 
@@ -164,7 +164,7 @@ Output: “Hello World To My Strings”
             return String.join(" ", words);
         }
 
-### Anagrams
+### 08 Anagrams
 
 Detect if two strings are anagram of each other. A string is an anagram of another string if it has the exact same characters in any order.
 
@@ -237,7 +237,7 @@ Output: false
             return true;
         }
 
-### Palindrome
+### 09 Palindrome
 
 Check if a string is palindrome. If we read a palindrome string from left or right, we get the exact same characters.
 
